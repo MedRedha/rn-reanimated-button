@@ -18,7 +18,6 @@
 	<img width="200" align="center" src="https://user-images.githubusercontent.com/49821074/204602845-6fe91d7f-7ec9-4602-8b04-3bf2bf14115c.gif" />  
 </p>
 
-
 # 🧭 Step By Step Guide
 
 # 🚀 Installation
@@ -40,14 +39,14 @@ Clean up the cache & install the dependencies
 
 ## 🧼 What was done?
 
-Here is the list of requested features and details done for the challenge  
+Here is the list of requested features and details done for the challenge
 
 - All from scratch
+- Custom runnin scripts
 - Latest React Native release >0.70
 - Pure animation using Reanimated 2 API
-- Custom font integration
+- Native font integration
 - Reusable, clean & simple components
-
 
 </br>
 

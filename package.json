@@ -22,11 +22,10 @@
     "pre-commit": "lint-staged",
     "lint:fix": "eslint --fix src",
     "link": "yarn react-native link",
-    "android": "react-native run-android",
+    "ios": "npx react-native run-ios",
     "pod:update": "(cd ios && pod repo update)",
-    "ios": "npx react-native run-ios --simulator=\"iPhone Redha Max\"",
+    "android": "adb devices && npx react-native run-android \"emulator-5554\"",
     "start": "watchman watch-del-all && watchman watch ./ && npx react-native start --reset-cache",
-    "clean:ios": "xcrun simctl erase all && (cd ios && xcodebuild -alltargets clean) && defaults write com.apple.CoreSimulator.IndigoFramebufferServices FramebufferRendererHint 3",
     "clean": "yarn cache clean && watchman watch-del-all && rm -rf /Users/MedRedha/Library/Developer/Xcode/DerivedData/ && xcrun simctl erase all && (cd ios && xcodebuild -alltargets clean) && defaults write com.apple.CoreSimulator.IndigoFramebufferServices FramebufferRendererHint 3"
   },
   "dependencies": {
